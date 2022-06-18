@@ -5,7 +5,10 @@
 ### Kelas : TI.20.D1
 ### NIM   : 312010035
 
+
+
 ### PRATIKUM 11: PHP FRAMEWORK (Codeigniter)
+
 ### Langkah-langkah
 1. Mengaktifkan Ekstensi
 - Aktifkan ekstensi tersebut melalui XAMPP Control Panel pada bagian Apache dengan cara klik Config -> PHP.ini seperti berikut.
