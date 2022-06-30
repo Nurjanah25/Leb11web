@@ -1,8 +1,6 @@
-### Nama  : Nurjanah
-### Kelas : TI.20.D1
-### NIM   : 312010035
-
-![Nurjanah JPEG](https://user-images.githubusercontent.com/101665497/174445288-c2dd7891-5c4a-44c8-9957-55cb43c64c77.jpg
+# Nama  : Nurjanah
+# Kelas : TI.20.D1
+# NIM   : 312010035
 
 ### PRATIKUM 11: PHP FRAMEWORK (Codeigniter)
 
