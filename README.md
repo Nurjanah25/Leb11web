@@ -54,8 +54,7 @@ Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http:
 ![image](https://user-images.githubusercontent.com/101665497/174444509-cdf369b8-c705-499e-a03b-b85093887d77.png)
 
 6.Membuat Controller Selanjutnya adalah membuat Controller Page. Buat file dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut
-
-![2](https://user-images.githubusercontent.com/101665497/174444681-acfc484a-797e-4015-931a-e1a02eaeb5aa.png)
+![2](https://user-images.githubusercontent.com/101665497/17444468acfc484a-797e-4015-931a-e1a02eaeb5aa.png)
 
 7.Auto Routing Secara default fitur autoroute pada Codeigniter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variablenya. Untuk menonaktifkan ubah nilai true menjadi false
 
@@ -94,16 +93,36 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 ![6](https://user-images.githubusercontent.com/101665497/174445205-56931fd6-6de3-44ec-9e9a-e2f581947f61.png)
 
+# Praktikum 12: Framework Lanjutan (CRUD) Langkah-langkah Praktikum
 
+Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP seperti berikut. #Praktikum 12: Framework Lanjutan (CRUD) Langkah-langkah Praktikum
 
+Persiapan
 
+Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP seperti berikut. 
+![image](https://user-images.githubusercontent.com/101665497/176588780-46bef89e-23e1-4634-a7c8-099538128f20.png)
 
+Langkah 1 
+Membuat database kemudian membuat Tabel dan masukkan kode pada database query seperti berikut.
 
+Langkah 2 
+Konfigurasi koneksi database Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Kemudian melakukan konfigurasi dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env. Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) didepan seperti berikut ini.
+![image](https://user-images.githubusercontent.com/101665497/176588988-21a58561-457b-4ba8-8ed8-6fde80256842.png)
 
+Langkah 3 
+Membuat Model Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php lalu masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101665497/176589127-09741c6e-7193-475f-b437-df346325befe.png)
 
+Langkah 4 
+Membuat Controller Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers lalu masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101665497/176589253-7c6d6f64-05f7-485e-acb4-d1572891d370.png)
 
+Langkah 5
+Membuat View Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php. 
+![image](https://user-images.githubusercontent.com/101665497/176589435-7366a0b1-71e3-4299-b20e-40efad24bca3.png)
 
+ Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel maka hasilnya akan seperti berikut.
+![image](https://user-images.githubusercontent.com/101665497/176589657-f9cd9065-9151-4e2a-9a33-1a299558bcfd.png)
 
-
-
-
+Terlihat belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database query agar dapat ditampilkan datanya seperti berikut.
+![image](https://user-images.githubusercontent.com/101665497/176589779-733f6aad-cf11-4cc2-830a-92977b25be30.png)
